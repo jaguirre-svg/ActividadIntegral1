@@ -25,7 +25,7 @@
         <section id="inicio">
             <h2>Bienvenido a mi Portafolio</h2>
             <p>Hola, soy James. Aquí presento mi trayectoria académica y profesional en el área de sistemas.</p>
-            <!-- INSTRUCCIÓN DE IMAGEN: Guarda tu foto personal en la carpeta 'img' con el nombre 'perfil.jpg' -->
+            <!-- IMAGEN: Guarda tu foto personal en la carpeta 'img' con el nombre 'perfil.jpg' -->
             <img src="img/perfil.jpg" alt="Foto de perfil de James Aguirre">
         </section>
         
@@ -45,6 +45,52 @@
                 <article class="habilidad">Google Workspace & Apps Script</article>
             </div>
         </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="contenedor-proyectos">
+                <article class="proyecto">
+                    <!-- IMAGEN: Guarda una imagen en 'img' llamada 'proyecto1.jpg' -->
+                    <img src="img/proyecto1.jpg" alt="Restaurante Luisito">
+                    <h3>Restaurante Luisito</h3>
+                    <p>Sistema de gestión simulado en Python aplicando principios SOLID y patrones estructurales.</p>
+                </article>
+                <article class="proyecto">
+                    <!-- IMAGEN: Guarda una imagen en 'img' llamada 'proyecto2.jpg' -->
+                    <img src="img/proyecto2.jpg" alt="Monitoreo Zabbix">
+                    <h3>Monitoreo con Zabbix</h3>
+                    <p>Despliegue de herramientas de monitorización de red (Zabbix) sobre un entorno Lubuntu Linux.</p>
+                </article>
+                <article class="proyecto">
+                    <!-- IMAGEN: Guarda una imagen en 'img' llamada 'proyecto3.jpg' -->
+                    <img src="img/proyecto3.jpg" alt="Automatización Apps Script">
+                    <h3>Automatización en Google Workspace</h3>
+                    <p>Scripts para flujos de trabajo administrativos usando Google Apps Script, Forms y Sheets.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="get">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
+
+    <footer>
+        <p>James Andrew Aguirre Diaz - 2026</p>
+        <!-- Más adelante reemplazaremos el enlace por tu usuario real de GitHub -->
+        <p><a href="https://github.com/tu-usuario" target="_blank">Mi perfil de GitHub</a></p>
+    </footer>
 </body>
 </html>
