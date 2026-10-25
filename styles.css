@@ -56,3 +56,30 @@ img {
     margin-top: 20px;
     border: 3px solid var(--color-primario);
 }
+#sobre-mi p {
+    max-width: 800px;
+    margin: 10px auto;
+    line-height: 1.6;
+}
+
+.contenedor-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.habilidad {
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.habilidad:hover {
+    transform: scale(1.05);
+    background-color: #000066;
+}
