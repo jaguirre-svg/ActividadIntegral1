@@ -158,3 +158,16 @@ footer a {
     color: var(--color-secundario);
     text-decoration: underline;
 }
+/* Estilos Finales */
+html {
+    scroll-behavior: smooth;
+}
+
+.proyecto {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.proyecto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+}
